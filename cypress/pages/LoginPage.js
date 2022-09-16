@@ -1,8 +1,8 @@
 class homeSaucePage {
   elements = {
-    usernameInput: () => cy.get("#user-name"),
-    passwordInput: () => cy.get("#password"),
-    loginBtn: () => cy.get("#login-button"),
+    usernameInput: () => cy.get('#user_login'),
+    passwordInput: () => cy.get('#user_pass'),
+    loginBtn: () => cy.get('#wp-submit'),
     errorMessage: () => cy.get('h3[data-test="error"]'),
   };
 
